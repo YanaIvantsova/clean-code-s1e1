@@ -27,6 +27,13 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
+.hidden-title{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
 .task-label,
 .entry-field {
   width: 56%;
@@ -36,7 +43,10 @@
 .task-wrapper {
   display: flex;
 }
-.task-list {
+
+h1,
+h2,
+ul {
   margin: 0;
   padding: 0px;
 }
